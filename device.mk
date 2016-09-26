@@ -118,6 +118,11 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     services-ext
 
+# Custom Hardware Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    com.custom.hardware \
+    com.custom.hardware.xml
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8994 \
